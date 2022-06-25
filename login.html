@@ -51,12 +51,11 @@
 
 <!-- login form starts here -->
  <div class="text-center">
-    <form style="max-width:480px; margin:auto;" action="success.html" method="post" onsubmit="return validate()">
+    <form style="max-width:480px; margin:auto;" action="success.html" method="post" onsubmit="return loginvalidate()" id="loginform">
         <img src="./Images/keralatourismlogo.png" width="120px" height="100px" class="mt-4">
         <h3 class="mt-4 mb-4 font-weight-normal text-dark">Please Sign In</h3>
-<label for="email" class="sr-only"></label>
-    <input type="email" id="email" class="form-control" placeholder="Email Address" required autofocus>
-    <label for="Password" class="sr-only"></label>
+    <input type="text" id="email" class="form-control" placeholder="Email Address" required autofocus>
+    <br>
     <input type="password" id="password" placeholder="Password" class="form-control" required>
     <div class="checkbox">
         <label>

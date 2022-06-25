@@ -50,23 +50,18 @@
 
 <!-- Registration starts here -->
 <div class="text-center">
-    <form style="max-width:480px; margin:auto; border: 2px solid black; margin-top: 50px; padding-bottom: 10px;" class="bg-dark text-light">
+    <form style="max-width:480px; margin:auto; border: 2px solid black; margin-top: 50px; padding-bottom: 10px;" method = "post" action="./success.html" onsubmit="return registervalidate()" class="bg-dark text-light">
         <img src="./Images/keralatourismlogo.png" width="150px" height="100px" class="mt-4">
         <h3>Register Here</h3>
         <div class="container mt-2"max-width="480px">
             <div class="row mt-4">
                 <div class="col-md-6">
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required autofocus>
+                    <input type="text" class="form-control" placeholder="" id="name" required autofocus>
                 </div>
                 <div class="col-md-6">
-                    <label for="gender" class="form-label">Gender</label>
-                    <select id="gender" class="form-select" required>
-                        <option selected>Select</option>
-                        <option>Male</option>
-                        <option>Female</option>
-                        <option>Transgender</option>
-                    </select>
+                    <label for="gender" class="form-label">MOBILE NUMBER</label>
+                    <input type="number" class="form-control" id="num" required>
                 </div>
             </div>
         </div>
@@ -95,7 +90,7 @@
             </div>
         </div>
         <div class="mt-4">
-            <a href="#"><button type="button" class="btn btn-primary">Submit
+            <a href="#"><button type="submit" class="btn btn-primary">Submit
             </button></a>
         </div>
         <div class="mt-3">
@@ -117,5 +112,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="./js/bootstrap.js"></script>    
+    <script src="./script.js"></script>
 </body>
 </html>
