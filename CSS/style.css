@@ -49,3 +49,55 @@ a{
 .famous{
     background-image: url("C:\Users\SREEJA\OneDrive\Desktop\ICT - Full Stack Development\Evaluvation Projects\Kerala-Tourism\famous destinations\munroe island.jpg");
 }
+
+.inputgroup span{
+    position: absolute;
+    font-size: small;
+    color: red;
+}
+#submit-error
+{
+    position: absolute;
+    font-size: small;
+    color: red;
+}
+
+.inputgroup span i{
+    color:seagreen;
+    position: relative;
+}
+
+.registerbody
+{
+    width: 700px;
+}
+
+.registerbody label
+{
+    text-align: left;
+}
+
+.errors li{
+    text-align: left;
+
+}
+
+.errors{
+    background-color:coral;
+    margin-right: 350px;
+}
+
+
+#passwordmsg
+{
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+
+#nameerror
+{
+    position: relative;
+}
